@@ -38,7 +38,7 @@ function arp_spoof_capture(){
 if [[ -z $gateway && -z $target && -z $interface ]]
 then
     echo "Usage:" 
-    echo "sudo ./mitm.sh -i [interface] -r [ip] -t [ip] -c capture"
+    echo "sudo ./mitm.sh -i [interface] -r [ip] -t [ip]"
     echo "-i  interface"
     echo "     example - wlan0 or eth0"
     echo "-r  router/gateway ip address"
