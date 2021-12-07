@@ -2,7 +2,7 @@
 echo "#############################"
 echo "#            MITM       v1.0#"
 echo "#                           #"
-echo "# github.com/Munazir/mitm   #"
+echo "# github.com/Munazirul/mitm   #"
 echo "#############################"
 while getopts r:t:i: flag 
 do
