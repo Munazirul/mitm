@@ -16,9 +16,9 @@ if [[ `command -v tcpdump` && `command -v xterm` && `command -v arpspoof` ]]; th
     echo ''
     else
         echo "Installing required packages"
-        sudo apt install tcpdump -y >/dev/null 2>&1
-        sudo apt install xterm -y >/dev/null 2>&1
-        sudo apt install arpspoof -y >/dev/null 2>&1
+        sudo apt install tcpdump -y >/dev/null 2>&1 &&
+        sudo apt install xterm -y >/dev/null 2>&1 &&
+        sudo apt install arpspoof -y >/dev/null 2>&1 &&
         echo "Successfully Installed the packages"
         fi
 function arp_spoof_nocapture(){
