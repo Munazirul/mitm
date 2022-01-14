@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "#############################"
-echo "#            MITM       v1.0#"
-echo "#                           #"
-echo "# github.com/Munazirul/mitm   #"
+echo "##############################"
+echo "#            MITM       v1.0 #"
+echo "#                            #"
+echo "# github.com/Munazirul/mitm  #"
 echo "#############################"
 while getopts r:t:i: flag 
 do
